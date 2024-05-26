@@ -1,7 +1,6 @@
 /*-- -------------------------- -->
 <---     Mobile Navigation      -->
 <--- -------------------------- -*/
-
 /* Mobile - 1023px */
 @media only screen and (max-width: 63.9375rem) {
     body.cs-open {
@@ -39,7 +38,7 @@
       content: "";
       width: 100%;
       height: 100%;
-      background: #14372c;
+      background: #fff;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       opacity: 1;
       /* 12px - 24px */
@@ -156,7 +155,7 @@
     #cs-navigation .cs-line {
       width: 100%;
       height: 2px;
-      background-color: #14372c;
+      background-color: #fafbfc;
       border-radius: 2px;
       position: absolute;
       left: 50%;
@@ -188,7 +187,7 @@
       width: 100%;
       height: auto;
       padding-bottom: 2.4em;
-      background-color: #14372c;
+      background-color: #fff;
       border-radius: 0 0 1.5rem 1.5rem;
       position: absolute;
       top: 85%;
@@ -345,7 +344,7 @@
     #cs-navigation .cs-li-link.cs-drop-link {
       /* 14px - 16px */
       font-size: clamp(0.875rem, 2vw, 1.25rem);
-      color: #14372c;
+      color: #fff;
     }
   }
   /* Desktop - 1024px */
@@ -374,7 +373,7 @@
       min-width: 12.5rem;
       margin: 0;
       padding: 0;
-      background-color: #14372c;
+      background-color: #fff;
       box-shadow: inset rgba(149, 157, 165, 0.1) 0px 8px 10px;
       opacity: 0;
       border-bottom: 5px solid var(--primary);
@@ -468,9 +467,8 @@
       box-sizing: border-box;
       /* 12px - 24px */
       padding: clamp(0.75rem, 2vw, 1.5rem) 0;
-      background-color: #14372c;
+      background-color: #fff;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-      color: white;
       /* 12px - 24px */
       border-radius: clamp(0.75rem, 2vw, 1.5rem);
       display: flex;
@@ -498,9 +496,9 @@
       display: none;
     }
     #cs-navigation .cs-logo {
-      width: 18.4%;
+      width: 100%;
       max-width: 21.875rem;
-      height: 2rem;
+      height: 100%;
       /* margin-right auto pushes everything away from it to the right */
       margin: 0 auto 0 0;
       padding: 0;
@@ -516,6 +514,7 @@
       object-fit: contain;
     }
     #cs-navigation .cs-contact-group {
+      margin-bottom: 2%;
       display: flex;
       justify-content: center;
       align-items: center;
